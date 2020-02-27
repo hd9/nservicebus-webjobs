@@ -7,9 +7,7 @@
 //   - NSB WebJobs:   https://docs.particular.net/samples/azure/webjob-host/
 //   - Azure WebJobs: https://docs.microsoft.com/en-us/azure/app-service/webjobs-sdk-get-started
 
-
-// Example class to show how to run NServiceBus endpoints
-// as Azure WebJobs
+// Example class to show how to run NServiceBus endpoints as Azure WebJobs
 public class Program
 {
     static void Main()
