@@ -1,0 +1,25 @@
+<!-- 
+// **********************************************
+// Fore more information, visit: 
+// https://blog.hildenco.com/2020/02/migrating-nservicebus-backends-to-azure.html
+// **********************************************
+-->
+
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>MyApp</id>
+    <version>0.1.0.0</version>
+    <title>My Awesome App</title>
+    <authors>MySelf</authors>
+    <owners>MySelf</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>Some release notes</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <description>My Awesome App - Some description</description>
+  </metadata>
+  <files>
+    <file src="..\MyApp.Backend\bin\release\*.*" target="App_Data\jobs\continuous\MyApp.Backend"/>
+  </files>
+</package>
+
